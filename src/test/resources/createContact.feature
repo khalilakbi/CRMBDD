@@ -1,3 +1,0 @@
-Feature: create contact
-
-  Scenario :

@@ -11,11 +11,11 @@ import org.junit.runner.RunWith;
 
         features = {"src\\test\\resources"},// your features file path
 
-        glue = {"steps","hooks"},// your steps definitions
+        glue = {"steps", "hooks"},// your steps definitions
         // dryRun = true   // mapping scenario with step definitions
-        // tags = "@regression"
+        //tags = "@regression",
         plugin = {
-                "pretty","html:report/execution.html"
+                "pretty", "html:report/execution.html"
         }
 
 )
