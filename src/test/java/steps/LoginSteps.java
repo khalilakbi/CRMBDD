@@ -10,11 +10,11 @@ import pages.HomePage;
 
 public class LoginSteps extends CommonMethods {
 
-    @Given("user open application")
-    public void user_open_application() {
-        driver.get("https://ui.cogmento.com/");
-    }
-
+//    @Given("user open application")
+//    public void user_open_application() {
+//        driver.get("https://ui.cogmento.com/");
+//    }
+//
     @When("user enter valid email")
     public void user_enter_valid_email() {
         HomePage homePage = new HomePage();
